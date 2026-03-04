@@ -1,0 +1,19 @@
+{
+  "name": "Hafizd",
+  "fullName": "Hafizd Mahardhika",
+  "title": "Hi, I'm",
+  "roles": [
+    "performance, reliability,",
+    "DevOps practices"
+  ],
+  "description": "Developing scalable applications with a focus on ",
+  "profileImage": "/images/profile.webp",
+  "buttonPrimary": {
+    "text": "Let's Talk",
+    "link": "https://wa.me/6285280473431?text=Halo%20saya%20tertarik%20dengan%20portofolio%20Anda!"
+  },
+  "buttonSecondary": {
+    "text": "Email Me",
+    "link": "mailto:hafidz.mahardika236@gmail.com"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Let's connect",
+    "subtitle": "Say hello to my email or social media",
+    "contactInfo": {
+        "email": {
+            "label": "Email",
+            "value": "hafidz.mahardika236@gmail.com",
+            "link": "mailto:hafidz.mahardika236@gmail.com"
+        },
+        "linkedin": {
+            "label": "LinkedIn",
+            "value": "Hafizd Mahardhika",
+            "link": "https://www.linkedin.com/in/hafizd-mahardhika-628892171/"
+        }
+    },
+    "socials": [
+        {
+            "name": "GitHub",
+            "link": "https://github.com/mahardhikaa"
+        },
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/hafizd-mahardhika-628892171/"
+        }
+    ],
+    "form": {
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Your message here...",
+        "buttonText": "Send Message",
+        "successMessage": "Thank you for your message! I'll get back to you soon."
+    }
+}

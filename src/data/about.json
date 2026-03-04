@@ -1,0 +1,42 @@
+{
+    "title": "About Me",
+    "paragraphs": [
+        "I have a solid academic background in Instrumentation Physics and am an enthusiastic Software Engineer.",
+        "My physics training has given me a problem-solving mentality, and I like turning intricate concepts into scalable, dependable, and beautiful software solutions. I concentrate on creating top-notch systems that provide genuine business value, whether they are cloud-based architectures, web apps, or backend systems.",
+        "Every project I work on benefits from my special combination of accuracy, reasoning, and originality. Clean code, system performance optimization, security, and user-centered design are the guiding principles of my methodology."
+    ],
+    "stats": [
+        {
+            "value": "10+",
+            "label": "Projects Created"
+        },
+        {
+            "value": "3+",
+            "label": "Years Experience"
+        },
+        {
+            "value": "12+",
+            "label": "Tech Skills"
+        }
+    ],
+    "capabilitiesTitle": "My Capabilities",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Java",
+        "Docker",
+        "ELK",
+        "AWS",
+        "Kafka",
+        "Jenkins",
+        "NGINX",
+        "Linux",
+        "Node.js",
+        "Database Design",
+        "Git",
+        "Microcontroller",
+        "IoT"
+    ]
+}

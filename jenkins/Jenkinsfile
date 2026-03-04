@@ -1,0 +1,43 @@
+pipeline {
+    agent { label 'react-js' }
+
+    environment {
+        APP_DIR = "/app/project/portofolio"
+    }
+
+    stages {
+
+        stage('Pull Latest Code') {
+            steps {
+                dir("${APP_DIR}") {
+                    checkout scm
+                }
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                dir("${APP_DIR}") {
+                    sh 'npm install'
+                }
+            }
+        }
+
+        stage('Build React App') {
+            steps {
+                dir("${APP_DIR}") {
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Restart Nginx Container') {
+            steps {
+                dir("${APP_DIR}") {
+                    sh 'docker compose down || true'
+                    sh 'docker compose up -d'
+                }
+            }
+        }
+    }
+}

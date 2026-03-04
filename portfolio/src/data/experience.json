@@ -1,0 +1,59 @@
+{
+    "title": "My Journey",
+    "subtitle": "Professional experience and academic background",
+    "experienceTitle": "Professional Experience",
+    "educationTitle": "Education",
+    "experiences": [
+        {
+            "id": 1,
+            "title": "Senior DevOps",
+            "company": "Bank Republik Indonesia",
+            "period": "Mar 2026 - Present",
+            "description": "I am currently responsible for implementing Claude Code as a personal assistant agent, ensuring that the overall software architecture is robust, scalable, lightweight, and secure against malware threats through proper firewall and security measures. In addition, I am involved in backend development using Quarkus to modernize and refresh legacy Spring Boot services, while maintaining Java as the core programming language. I also initiated and implemented a CI/CD pipeline for internal mobile applications to enable fully automated deployment integrated with GitLab. Furthermore, I ensure the reliability and health of the message broker system, preventing long queue backlogs and maintaining cluster stability and performance. Currently, I am deepening my expertise in AWS cloud architecture, with a strong focus on mastering Terraform for infrastructure provisioning and automation."
+        },
+        {
+            "id": 2,
+            "title": "Software Engineering",
+            "company": "JPMorgan Chase | Project Based",
+            "period": "Jan 2026 - Present",
+            "description": "I am currently responsible for implementing Claude Code as a personal assistant agent, ensuring that the overall software architecture is robust, scalable, lightweight, and secure against malware threats through proper firewall and security measures. In addition, I am involved in backend development using Quarkus to modernize and refresh legacy Spring Boot services, while maintaining Java as the core programming language. I also initiated and implemented a CI/CD pipeline for internal mobile applications to enable fully automated deployment integrated with GitLab. Furthermore, I ensure the reliability and health of the message broker system, preventing long queue backlogs and maintaining cluster stability and performance. Currently, I am deepening my expertise in AWS cloud architecture, with a strong focus on mastering Terraform for infrastructure provisioning and automation."
+        },
+        {
+            "id": 3,
+            "title": "Production Support",
+            "company": "Permata Bank",
+            "period": "Oct 2022 - Jan 2026",
+            "description": "Responsible for ensuring the reliability and performance of the corporate mobile banking application (PeB Revamp) for both customers and internal users. Designed and maintained the system architecture, including server infrastructure (Linux), Docker, Kafka, and web servers (Oracle, Tomcat). Additionally, collaborated closely with developers to support backend development using Java Spring Boot and frontend development using React.js."
+        },
+        {
+            "id": 4,
+            "title": "Researcher | Internship",
+            "company": "LIPI",
+            "period": "Mar 2021 - Jul 2021",
+            "description": "Developed an electric vehicle system based on IoT and Artificial Intelligence. IoT was utilized for real-time monitoring of electrical current and multiple sensors, including obstacle detection, temperature, vehicle speed, and voltage. In addition, implemented AI-based technologies to enable automated control and intelligent decision-making processes."
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "title": "Master | Computer Science",
+            "company": "Universitas Budi Luhur",
+            "period": "Feb 2024 - present (Currently on academic leave)",
+            "description": "Currently pursuing a Master’s degree in Computer Science, with a strong focus on advanced software engineering, distributed systems, cloud computing, and artificial intelligence. Actively involved in research, system design, and practical projects to deepen both theoretical understanding and real-world engineering skills."
+        },
+        {
+            "id": 2,
+            "title": "Bachelor of Science | Instrumentation",
+            "company": "Universitas Brawijaya",
+            "period": "Jul 2018 - Jul 2022",
+            "description": "Bachelor’s degree graduate in Instrumentation Physics, with a strong foundation in sensor systems, electronics, embedded systems, data acquisition, and instrumentation control. Experienced in designing and implementing IoT-based and AI-assisted systems for real-time monitoring, automation, and intelligent control."
+        },
+        {
+            "id": 3,
+            "title": "High School | Electronics",
+            "company": "SMKN 26 Jakarta",
+            "period": "Jul 2014 - Jul 2018",
+            "description": "Vocational high school student majoring in Electronics Engineering, with a strong foundation in basic electronics, circuit design, microcontrollers, and hardware troubleshooting. Experienced in hands-on laboratory work, practical projects, and technical problem-solving."
+        }
+    ]
+}

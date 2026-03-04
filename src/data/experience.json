@@ -7,7 +7,7 @@
         {
             "id": 1,
             "title": "DevOps | Advisor",
-            "company": "Bank Republik Indonesia",
+            "company": "Bank Rakyat Indonesia",
             "period": "Mar 2026 - Present",
             "description": "In this role, I was assigned as an R&D Engineer and Architecture Advisor in developing CI/CD automation using Jenkins and Bamboo. I implemented monitoring solutions using Grafana and Prometheus, and built automated alerting systems through Dynatrace as well as directly on web servers. I containerized web services using Docker and Kubernetes, and contributed to enhancing cloud architecture on Google Cloud Platform (GCP)."
         },

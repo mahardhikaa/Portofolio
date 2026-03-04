@@ -2,7 +2,7 @@ pipeline {
     agent { label 'react-js' }
 
     environment {
-        APP_DIR = "/app/project/portofolio"
+        APP_DIR = "/app/project/portofolio/src"
     }
 
     stages {

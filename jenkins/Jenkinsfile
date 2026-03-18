@@ -36,6 +36,8 @@ pipeline {
         stage('Restart Nginx Container') {
             steps {
                 dir("${DOCKER_DIR}") {
+                    sh 'pwd'
+                    sh 'ls -l'
                     sh 'docker compose down || true'
                     sh 'docker compose up -d'
                 }

@@ -4,30 +4,12 @@
     "projects": [
         {
             "id": 1,
-            "title": "Whiteboard Website",
-            "description": "Make some website for whiteboard in github. So when i teach someone in online, i will used my whiteboard from github pages",
+            "title": "JDocs",
+            "description": "Make a website for documentation online using ReactJS for frontend, GO for backend and using infrastructure as code (IaC) to make better deployment and architecture.",
             "year": "2021",
-            "role": "Frontend Dev",
+            "role": "Owner and Developer",
             "link": "https://mahardhikaa.github.io/whiteboard/",
             "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-        },
-        {
-            "id": 2,
-            "title": "Lens Formula Website",
-            "description": "Make some website to calculate lens formula and magnification for science project.",
-            "year": "2020",
-            "role": "Frontend Dev",
-            "link": "https://mahardhikaa.github.io/Penjalaran_Sinar/",
-            "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
-        },
-        {
-            "id": 3,
-            "title": "Resistor Calculator",
-            "description": "Make some website to calculate resistor by color band.",
-            "year": "2020",
-            "role": "Frontend Dev",
-            "link": "https://mahardhikaa.github.io/Resistor_Calculator/",
-            "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
         }
     ]
 }

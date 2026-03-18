@@ -3,7 +3,7 @@ version: '3.8'
 services:
   nginx:
     image: nginx:alpine
-    container_name: react-nginx
+    container_name: portofolio
     restart: always
 
     ports:

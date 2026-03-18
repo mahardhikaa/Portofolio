@@ -2,15 +2,15 @@ pipeline {
     agent { label 'react-js' }
 
     environment {
-        APP_DIR = "/app/portofolio/code"
-        DOCKER_DIR = "/app/portofolio"
+        DIR = "/app/portofolio/"
+        DOCKER_DIR = "/app/portofolio/docker"
     }
 
     stages {
 
         stage('Pull Latest Code') {
             steps {
-                dir("${APP_DIR}") {
+                dir("${DIR}") {
                     sh 'git config --global --add safe.directory ${APP_DIR}'
                     checkout scm
                 }
@@ -19,7 +19,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                dir("${APP_DIR}") {
+                dir("${DIR}") {
                     sh 'npm ci --prefer-offline --no-audit'
                 }
             }
@@ -27,7 +27,7 @@ pipeline {
 
         stage('Build React App') {
             steps {
-                dir("${APP_DIR}") {
+                dir("${DIR}") {
                     sh 'export NODE_OPTIONS="--max-old-space-size=512" && npm run build'
                 }
             }
@@ -36,8 +36,6 @@ pipeline {
         stage('Restart Nginx Container') {
             steps {
                 dir("${DOCKER_DIR}") {
-                    sh 'pwd'
-                    sh 'ls -l'
                     sh 'docker compose down || true'
                     sh 'docker compose up -d'
                 }

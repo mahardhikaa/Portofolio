@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: react-nginx
+    restart: always
+
+    ports:
+      - "8280:80"
+
+    volumes:
+      # hasil build React dari Jenkins
+      - /app/portofolio/build:/usr/share/nginx/html
+
+      # config nginx
+      - /app/portofolio/nginx/default.conf:/etc/nginx/conf.d/default.conf

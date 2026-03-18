@@ -2,8 +2,8 @@ pipeline {
     agent { label 'react-js' }
 
     environment {
-        DIR = "/app/project/portofolio/"
-        DOCKER_DIR = "/app/project/portofolio/docker"
+        DIR = "/app/projects/portofolio/"
+        DOCKER_DIR = "/app/projects/portofolio/docker"
     }
 
     stages {

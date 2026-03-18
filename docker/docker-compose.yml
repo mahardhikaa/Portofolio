@@ -11,7 +11,7 @@ services:
 
     volumes:
       # hasil build React dari Jenkins
-      - /app/project/portofolio/build:/usr/share/nginx/html
+      - /app/projects/portofolio/build:/usr/share/nginx/html
 
       # config nginx
-      - /app/project/portofolio/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - /app/projects/portofolio/nginx/default.conf:/etc/nginx/conf.d/default.conf

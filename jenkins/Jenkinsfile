@@ -11,7 +11,7 @@ pipeline {
         stage('Pull Latest Code') {
             steps {
                 dir("${DIR}") {
-                    sh 'git config --global --add safe.directory ${APP_DIR}'
+                    sh 'git config --global --add safe.directory ${DIR}'
                     checkout scm
                 }
             }

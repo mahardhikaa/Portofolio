@@ -20,7 +20,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 dir("${APP_DIR}") {
-                    sh 'npm ci'
+                    sh 'npm ci --prefer-offline --no-audit'
                 }
             }
         }
@@ -28,7 +28,7 @@ pipeline {
         stage('Build React App') {
             steps {
                 dir("${APP_DIR}") {
-                    sh 'npm run build'
+                    sh 'export NODE_OPTIONS="--max-old-space-size=512" && npm run build'
                 }
             }
         }
